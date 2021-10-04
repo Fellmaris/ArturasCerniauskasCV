@@ -1,0 +1,132 @@
+
+.inline_div_wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-gap: 0px;
+    grid-template-rows: 100% 100%;
+
+}
+
+.inline_div {
+    height: 100%;
+    margin: 10px 10px;
+
+}
+
+.text_blocks{
+    padding: 8px;
+}
+
+.experience_company{
+    font-weight: bold;
+}
+
+.working_years{
+    float: right;
+    text-align: right;
+}
+.ocupation{
+    color: darkgray;
+}
+body{
+    background: url("../img/background.jpg");
+    background-size: cover;
+    align-self: center;
+    min-width: 1000px;
+}
+.profile_picture{
+    width: 100px;
+    height: auto;
+    padding-left: 40%;
+    padding-top: 25px;
+}
+
+.bold-span{
+    font-weight: bold;
+}
+
+.bold-div{
+    font-weight: bold;
+}
+
+.span_blocks{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 100%;
+    padding: 10px;
+}
+
+.name_and_profession{
+    text-align: center;
+    font-size: 25px;
+}
+.contact{
+    margin-top: 50px;
+    text-align: center;
+}
+.bold-div-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.bold-div-contacts{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.skills{
+    margin-top: 30px;
+
+
+}
+.hobbies{
+    margin-top: 30px;
+text-align: center;
+}
+
+.hobbies_paddings{
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.right_allign_hobbies{
+    text-align: right;
+}
+
+.left_align_hobbies{
+    text-align: left;
+}
+.hobbies div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-rows: 25%;
+}
+.skill-padding{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-rows: 25%;
+
+}
+h4{
+    margin-top: 40px;
+}
+h5{
+    margin-top: 46px;
+    font-size: 20px;
+}
+h6{
+    font-size: 20px;
+}
+.indivSkills{
+    text-align: right;
+}
+
+.working_years{
+    font-weight: bold;
+}
